@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+  
+  }
+  
+  body {
+    margin: auto;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background-image: none ;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #44a1d4;
+    color: white;
+    z-index: 1000;
+  }
+  
+  main {
+    margin: 80px auto 0;
+    max-width: 80%;
+    
+  }
+  
+  img {
+    display: flex;
+    margin-top: 20px;
+    width: 30%;
+  }
+  .desc h2 {
+    text-align: center;
+  }
+  .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .desc img {
+    max-width: 40%;
+  }
+  
+  .desc .article {
+    width: 90%;
+    padding: 20px;
+  }
+  
+  .container {
+    margin-top: 0px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main {
+    width: 50%;
+    margin-right: 10px;
+  }
+  
+  .input_section {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    
+    border-radius: 7px;
+    background-color: #c2c5cd;
+  }
+  
+  .jenisPerhitungan {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  #jenisPerhitungan {
+    margin-top: 17px;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  
+  #rumusLuas > p {
+    font-size: 15px;
+    margin-top: -15px;
+    margin-bottom: 16px;
+  }
+  
+  #rumusKeliling > p {
+    font-size: 15px;
+    margin-top: -15px;
+    margin-bottom: 16px;
+  }
+  
+  #inputLuas > #alas,
+  #tinggi {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 2px;
+    outline: none;
+    align-items: center;
+    width: 380px;
+    height: 40px;
+    box-sizing: border-box;
+    
+  }
+  
+  #inputKeliling > #sisiA,
+  #sisiB {
+    margin-top: 5px;
+    margin-bottom: -10px;
+    padding: 2px;
+    height: 35px;
+    outline: none;
+    width: 380px;
+  }
+  
+  #inputKeliling > #sisiC {
+    margin-bottom: 10px;
+    height: 35px;
+    outline: none;
+    width: 380px;
+  }
+  
+  .angka,
+  input {
+    display: flex;
+    justify-content: left;
+  }
+  
+  button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  
+  .hasil {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 40px;
+    width: 50%;
+    border-radius: 10px;
+    
+    background-color: #c2c5cd;
+  }
+  
+  .hasil > label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  #hasil,
+  #history-container {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  #history-container {
+    height: 230px;
+    overflow: auto;
+  }
+  
+  #history {
+    margin-top: -15px;
+  }
+  
+  button.hitung {
+    font-weight: bold;
+    background-color: #44a1d4;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button.hitung:hover {
+    background-color: #1382b5;
+  }
+  
+  button.reset {
+    font-weight: bold;
+    background-color: #df1b1b;
+    color: aliceblue;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button.reset:hover {
+    background-color: #ba3030;
+  }
